@@ -1,0 +1,70 @@
+nav :hover {
+font-size: 101%; 
+color: yellow;
+}
+nav {
+text-align: center;   
+}
+body{
+    background-image: url(background.png);
+    background-size: cover ;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    border: 5px solid purple;
+    cursor: pointer;
+}
+
+p{
+    color: rgb(10, 10, 10);
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext {     /* sintaxe . pois é um class */
+border: 5px dashed green;
+}
+
+.active {
+   color: red ;
+}
+
+#div1 {    /* sintaxe # pois é um ID*/
+    background-color: rgba(0, 0, 100, 0.5);
+}
+
+#div2 {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.about {
+    text-transform: uppercase;
+    line-height: 20px;
+    font-style: italic;
+    font-size: 110%;
+    font-family: "times new roman";
+}
+
+img {
+    float: right;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+.boxmodel {
+    border: 5px solid red;
+    display: inline-block;
+    padding: 5px 20px 5px 20px;  /*top right bottom left*/
+                                /* tambem de por so por 5px 20px e vao ser so topos e lados*/
+    margin: 0px 20px;
+ width: 33px;
+ height: 55px;
+}
